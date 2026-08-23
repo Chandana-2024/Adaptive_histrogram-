@@ -1,0 +1,36 @@
+HE vs AHE vs CLAHE: Final Comparison Tables
+
+--- Mean_Intensity ---
+Method          AHE       CLAHE          HE    Original
+Image                                                  
+bright   137.801544  147.817858  128.129506  155.558982
+dark     106.781491   49.425723  102.547251   45.365892
+medical  126.306922  112.769475  128.337653  106.683631
+
+--- Std_Dev ---
+Method         AHE      CLAHE         HE   Original
+Image                                              
+bright   69.625408  56.481273  73.905585  62.020774
+dark     98.487256  51.418982  81.736270  47.428301
+medical  81.101201  60.370456  73.610918  51.621698
+
+--- Contrast ---
+Method        AHE     CLAHE        HE  Original
+Image                                          
+bright   0.917647  0.666667  0.909804  0.678431
+dark     1.000000  0.639216  0.933333  0.572549
+medical  1.000000  0.737255  0.894118  0.600000
+
+--- Entropy ---
+Method        AHE     CLAHE        HE  Original
+Image                                          
+bright   7.176145  7.606647  7.234741  7.457179
+dark     5.543321  6.026193  4.534366  4.713023
+medical  6.803215  7.774665  7.339493  7.437552
+
+--- Processing_Time_Seconds ---
+Method        AHE     CLAHE        HE  Original
+Image                                          
+bright   0.535308  0.001820  0.001017       0.0
+dark     0.081875  0.000621  0.000344       0.0
+medical  0.352999  0.001399  0.002260       0.0
